@@ -1,0 +1,18 @@
+body{
+    font-size: 20px;
+}
+.blue{
+    border: 1px;
+    background-color: aqua;
+    width: 700px;
+}
+.green{
+    border: 1px;
+    background-color: chartreuse;
+    width: 700px;
+}
+.red{
+    border: 1px;
+    background-color: rgb(247, 5, 5);
+    width: 700px;
+}
