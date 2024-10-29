@@ -1,0 +1,7 @@
+font-face{
+    font-family: "My custom Font";
+    src: url(fontd/Chokokutai-Regular.ttf)
+}
+h1{
+    font-family:"My custom Font";
+}

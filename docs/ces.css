@@ -50,14 +50,14 @@ body {
 }
 .obdlznikuvod{
     width: 1600px;
-    height:200px;
+    height: 400px;
     background-color: black;
     position: relative;
     
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 20px;
-    margin-top: 100px;
+    margin-top: 200px;
     text-align: center;
     z-index: 1;
     
@@ -102,14 +102,19 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
-    margin-top: 100px;
+    margin-top: -100px;
 
 }
 .Europa{
-    position:absolute;
-     width: 900px;
-    height:100px;
-    
+    width: 100%;
+    height: 100%;
+    background-image: url(https://data.ceskekormidlo.cz/Zajezd/14058/116275.jpeg);
+    background-repeat: no-repeat;
+    background-position-y: -120px;
+    background-size: cover;
+}
+.nadpis01{
+    margin-top: -125px;
 }
 
 
