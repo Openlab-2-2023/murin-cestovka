@@ -40,7 +40,7 @@ body {
     position: absolute;
     z-index: 3;
     margin-left:250px ;
-    margin-top: 220px;
+    margin-top: 270px;
 
 }
 .napis{
@@ -140,6 +140,22 @@ body {
     background-position-y: -120px;
     background-size: cover;
 
+}
+.S.Amerika{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://342ae7b265.clvaw-cdnwnd.com/7487cdae0ac9aaf4c3251b8d6e3c08d6/200000059-ef86bef86d/Guatemala-3.jpg?ph=342ae7b265);
+    background-repeat: no-repeat;
+    background-position-y: -120px;
+    background-size: cover;
+}
+.J.Amerika{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://www.satur.sk/media/cache/1920x675/page/2395_6481e3db8deb2.jpeg);
+    background-repeat: no-repeat;
+    background-position-y: -120px;
+    background-size: cover;
 }
 
 
