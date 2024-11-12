@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Registracia.css">
+</head>
+<body>
+    
+        
+    
+    <div class="container">
+        <div class="title">
+            <h2>Registrácia</h2>
+        </div>
+    
+        <div class="content">
+            <form class="form-registration">
+                <div class="user-details">
+                    <div class="input-box">
+                        <label for="name" class="details">Meno</label>
+                        <input type="text" id="name" placeholder="Vložte meno">
+                    </div>
+                    <div class="input-box">
+                        <label for="nickname" class="details">Prezývka</label>
+                        <input type="text" id="nickname" placeholder="Vložte prezývku">
+                    </div>
+                    <div class="input-box">
+                        <label for="email" class="details">Email</label>
+                        <input type="email" id="email" placeholder="Vložte email">
+                    </div>
+                    <div class="input-box">
+                        <label for="phone" class="details">Telefónne číslo</label>
+                        <input type="tel" id="phone" placeholder="Vložte telefónne číslo">
+                    </div>
+                    <div class="input-box">
+                        <label for="password" class="details">Heslo</label>
+                        <input type="password" id="password" placeholder="Vložte heslo">
+                    </div>
+                    <div class="input-box">
+                        <label for="confirm-password" class="details">Potvrdenie hesla</label>
+                        <input type="password" id="confirm-password" placeholder="Potvrďte heslo">
+                    </div>
+                </div>
+    
+                <div class="gender-details">
+                    <span class="gender-title">Pohlavie</span>
+                    <div class="category">
+                        <label for="male">
+                            <input type="radio" name="gender" id="male" value="male">
+                            Muž
+                        </label>
+                        <label for="female">
+                            <input type="radio" name="gender" id="female" value="female">
+                            Žena
+                        </label>
+                        <label for="other">
+                            <input type="radio" name="gender" id="other" value="other">
+                            Iné
+                        </label>
+                    </div>
+                </div>
+    
+                <div class="button">
+                    <input type="submit" value="Registrovať">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
