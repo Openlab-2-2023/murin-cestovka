@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding-top: 80px;
+    height: 3000px;
+  }
+.headbar {
+    background-color: rgb(111, 109, 106);
+    color: rgb(17, 17, 17);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    z-index: 9999;
+    top:0;
+    left:0;
+    right:0;
+    
+}
+
+.nav {    
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+.nav li {
+    display: inline;
+    margin: center;
+}
+.nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.nav a:hover {
+    text-decoration: underline;
+}
+.strednybar{
+    margin: 70px;
+    position: absolute;
+    z-index: 3;
+    margin-left:250px ;
+    margin-top: 270px;
+
+}
+.napis{
+    width: 300px;
+    height: 60px;
+    align-items:left;
+}
+.obdlznikuvod{
+    width: 1600px;
+    height: 400px;
+    background-color: black;
+    position: relative;
+    
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    margin-top: 200px;
+    text-align: center;
+    z-index: 1;
+    
+    
+  
+}
+.Nadpis01{
+    margin-top: -80px;
+}
+.Bankok{
+    position:absolute;
+    z-index: 2;
+    margin-top: -200px;
+    width: 900px;
+    height:100px;
+
+}
+.HlavnyNadpis{
+    z-index: 4;
+    position:absolute;
+    color: rgb(255, 255, 255);
+    margin-left:500px ;
+    margin-top: 30px;
+    font-size: 50px;
+}
+.kontinent{
+    font-size:large;
+}
+/* Začiatok Europa */
+.button button {
+    padding: 10px;
+    border: none;
+    background-image: url(https://www.zicasso.com/static/9688b7d0ca5646c9ffbf147194b7e30c/6d821/9688b7d0ca5646c9ffbf147194b7e30c.jpg);
+    border-radius: 30px 30px 30px 30px;
+    cursor: pointer;
+    width: 900px;
+    height: 400px;
+    margin-left: 25px;
+    position: absolute;
+    flex-direction: column;
+}
+/* Koniec Europa */
+
+/* Začiatok Afrika */
+.button1 button {
+    padding: 10px;
+    border: none;
+    background-image: url(https://www.croptrust.org/fileadmin/_processed_/6/7/csm_South_Africa_42a54d48ca.jpeg);
+    border-radius: 30px 30px 30px 30px;
+    cursor: pointer;
+    width: 900px;
+    height: 400px;
+    margin-left: 600px;
+    margin-right: 25px;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 500px;
+}
+/* Koniec Afrika */
+
+/* Začiatok Azia */
+.button2 button {
+    padding: 10px;
+    border: none;
+    background-image: url(https://www.asiahub.sk/wp-content/uploads/2024/04/Kathmandu-Nepal-AsiaHub.sk_.jpg);
+    border-radius: 30px 30px 30px 30px;
+    cursor: pointer;
+    width: 900px;
+    height: 400px;
+    margin-left: 25px;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1000px;
+    
+}
+/* Koniec Azia */
+
+/* Začiatok Australie a Oceanie */
+.button3 button {
+    padding: 10px;
+    border: none;
+    background-image: url(https://img.netky.sk/image/mobile/509702/);
+    border-radius: 30px 30px 30px 30px;
+    cursor: pointer;
+    width: 900px;
+    height: 400px;
+    margin-left: 600px;
+    margin-right: 25px;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1500px;
+    
+}
+/* Koniec Australie a Oceanie */
+
+/* zaciatok Amerika */
+.button4 button {
+    padding: 10px;
+    border: none;
+    background-image: url(https://img.netky.sk/image/mobile/509702/);
+    border-radius: 30px 30px 30px 30px;
+    cursor: pointer;
+    width: 900px;
+    height: 400px;
+    margin-left: 25px;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2000px;
+}
+/* Koniec Amerika */
+
+
+
+
+

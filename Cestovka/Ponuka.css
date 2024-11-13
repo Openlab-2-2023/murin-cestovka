@@ -35,10 +35,25 @@ body {
 .nav a:hover {
     text-decoration: underline;
 }
-.Nadpis{
-    margin-top: 50px;
+.letenky01 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    margin-top: -30px;
+
 }
-.čislo{
-    margin-top: 50px;
-    margin: center;
+.dovolenky{
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+}
+
+.dovolenky img {
+    max-width: 100%;
+    border-radius: 5px;
 }
