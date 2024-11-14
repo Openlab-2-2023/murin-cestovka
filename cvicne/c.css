@@ -49,12 +49,12 @@ body {
     align-items:left;
 }
 .obdlznikuvod{
-    width: 1600px;
+    width: 100px;
     height: 400px;
     background-color: black;
-    position: relative;
+    position: absolute;
     
-    left: 50%;
+   
     transform: translate(-50%, -50%);
     border-radius: 20px;
     margin-top: 200px;
@@ -71,7 +71,7 @@ body {
     position:absolute;
     z-index: 2;
     margin-top: -200px;
-    width: 900px;
+    width: 00px;
     height:100px;
 
 }
@@ -90,7 +90,7 @@ body {
 .button button {
     padding: 10px;
     border: none;
-    background-image: url(https://www.zicasso.com/static/9688b7d0ca5646c9ffbf147194b7e30c/6d821/9688b7d0ca5646c9ffbf147194b7e30c.jpg);
+    background-image: url(https://media.tacdn.com/media/attractions-splice-spp-674x446/07/1e/5b/61.jpg);
     border-radius: 30px 30px 30px 30px;
     cursor: pointer;
     width: 700px;
@@ -98,6 +98,9 @@ body {
     margin-left: 25px;
     position: absolute;
     flex-direction: column;
+}
+.vpravoe{
+    float:right ;
 }
 /* Koniec Europa */
 
