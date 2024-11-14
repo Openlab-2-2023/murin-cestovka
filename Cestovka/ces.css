@@ -83,82 +83,109 @@ body {
     margin-top: 30px;
     font-size: 50px;
 }
-.dovolenky{
-    background: white;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    margin: 10px;
-    padding: 15px;
-    width: 200px;
-    text-align: center;
+.kontinent{
+    font-size:large;
 }
-
-.dovolenky img {
-    max-width: 100%;
-    border-radius: 5px;
+/* Začiatok Europa */
+.button button {
+    padding: 10px;
+    border: none;
+    background-image: url(https://www.zicasso.com/static/9688b7d0ca5646c9ffbf147194b7e30c/6d821/9688b7d0ca5646c9ffbf147194b7e30c.jpg);
+    border-radius: 30px 30px 30px 30px;
+    cursor: pointer;
+    width: 700px;
+    height: 400px;
+    margin-left: 25px;
+    position: absolute;
+    flex-direction: column;
 }
-.letenky01 {
+.vpravoe{
+    float: right;
+    margin-right: 300px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 20px;
-    margin-top: -30px;
+}
+/* Koniec Europa */
 
-}
-.nadpis01{
-    margin-top: -125px;
-}
-.Afrika{
-    width: 100%;
-    height: 100%;
-    background-image: url(https://3y5rx2.5gcdn.net/ext/resize_2600x1700q_70,auto?src=https%3A%2F%2Fbubo.sk%2Fuploads%2Fgalleries%2F7493%2Fshutterstock_jar_kapskemesto_429673480.jpg%3Fmd%3D41a0dae2d60194ea591243b590c782da);
-    background-repeat: no-repeat;
-    background-position-y: -120px;
-    background-size: cover;
-}
-.Azia{
-    width: 100%;
-    height: 100%;
-    background-image: url(https://img.topky.sk/cestovky/big/2513719.jpg/hora-Japonsko-Azia-Tokio.jpg);
-    background-repeat: no-repeat;
-    background-position-y: -120px;
-    background-size: cover;
-}
-.AustraliaOceania{
-    width: 100%;
-    height: 100%;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROBoUR73O33WddAMjlDaMdbfZ-2YU8THXXRCIvBUCahEN44xeO4d4uGJ2F4BAJW6YrsQk&usqp=CAU);
-    background-repeat: no-repeat;
-    background-position-y: -120px;
-    background-size: cover;
 
-}
-.S.Amerika{
-    width: 100%;
-    height: 100%;
-    background-image: url(https://342ae7b265.clvaw-cdnwnd.com/7487cdae0ac9aaf4c3251b8d6e3c08d6/200000059-ef86bef86d/Guatemala-3.jpg?ph=342ae7b265);
-    background-repeat: no-repeat;
-    background-position-y: -120px;
-    background-size: cover;
-}
-.J.Amerika{
-    width: 100%;
-    height: 100%;
-    background-image: url(https://www.satur.sk/media/cache/1920x675/page/2395_6481e3db8deb2.jpeg);
-    background-repeat: no-repeat;
-    background-position-y: -120px;
-    background-size: cover;
+
+/* Začiatok Afrika */
+.button1 button {
+    padding: 10px;
+    border: none;
+    background-image: url(https://i.pinimg.com/736x/43/57/99/43579929147f7b8560c2fc08ce7e0ad7.jpg);
+    border-radius: 30px 30px 30px 30px;
+    cursor: pointer;
+    width: 700px;
+    height: 400px;
+    margin-left: 790px;
+    margin-right: 25px;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 500px;
 }
 
+/* Koniec Afrika */
+
+
+
+/* Začiatok Azia */
+.button2 button {
+    padding: 10px;
+    border: none;
+    background-image: url(https://media.licdn.com/dms/image/v2/D5612AQGVPCALP-ebtw/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1706180416069?e=2147483647&v=beta&t=lmdh5ad_nOOlNbpr43dBtWCPbw34RW74KpX_Tkyvm6A);
+    border-radius: 30px 30px 30px 30px;
+    cursor: pointer;
+    width: 700px;
+    height: 400px;
+    margin-left: 25px;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1000px;
+    
+}
+/* Koniec Azia */
+
+/* Začiatok Australie a Oceanie */
+.button3 button {
+    padding: 10px;
+    border: none;
+    background-image: url(https://reisreporter.be/wp-content/uploads/2016/09/Australi%C3%AB.jpg);
+    border-radius: 30px 30px 30px 30px;
+    cursor: pointer;
+    width: 700px;
+    height: 400px;
+    margin-left:790px;
+    margin-right: 25px;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1500px;
+    
+}
+/* Koniec Australie a Oceanie */
+
+/* zaciatok Amerika */
+.button4 button {
+    padding: 10px;
+    border: none;
+    background-image: url(https://dcontent.inviacdn.net/shared/img/web-830/2017/6/28/m0/408607.jpg);
+    border-radius: 30px 30px 30px 30px;
+    cursor: pointer;
+    width: 700px;
+    height: 400px;
+    margin-left: 25px;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2000px;
+}
+/* Koniec Amerika */
 
 
 
 
 
-
-
-   
-     
-   
 
 
