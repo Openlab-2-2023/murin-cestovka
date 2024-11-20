@@ -5,81 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="zaciatok.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <header class="headbar">
         <h1><b>AirMurinlines.com</b></h1>
-   </header>
-    <div  class="Prihlasenie">
-    <h1>Prihlasenie</h1>
-</div>
-<div class="search-container">
-    <form action="/vyhladat" method="GET">
-        <input type="text" placeholder="Email@gmail.com" name="query1" required>
+    </header>
+    
+   <div class="wrapper">
+    <form action="">
+        <h1>Login</h1>
+        <div class="input-box">
+            <input type="text" placeholder="Email@gmail.com" required>
+            <i class='bx bxs-user'></i>
+        </div>
+        <div class="input-box">
+            <input type="password" placeholder="Password" required>
+            <i class='bx bxs-lock-alt'></i>
+        </div>
+
+        <div class="remember-forgot">
+           <label><input type="checkbox">Remember me</label> 
+           <a href="#">Forgot password</a>
+        </div>
+        
+        <button onclick="window.location.href='index.html'" type="submit" class="btn">Login</button>
+    
+   
+
+       
     </form>
-    <form action="/vyhladat" method="GET">
-        <input type="password" placeholder="Heslo" name="query2" required>
-    </form>
-    <li><a href="index.html"><button type="submit">Prihlasiť</button></a></li>
-</div>
-<div class="container">
-    <div class="title">
-        <h2>Registrácia</h2>
-    </div>
-
-    <div class="content">
-        <form class="form-registration">
-            <div class="user-details">
-                <div class="input-box">
-                    <label for="name" class="details">Meno</label>
-                    <input type="text" id="name" placeholder="Vložte meno">
-                </div>
-                <div class="input-box">
-                    <label for="nickname" class="details">Prezývka</label>
-                    <input type="text" id="nickname" placeholder="Vložte prezývku">
-                </div>
-                <div class="input-box">
-                    <label for="email" class="details">Email</label>
-                    <input type="email" id="email" placeholder="Vložte email">
-                </div>
-                <div class="input-box">
-                    <label for="phone" class="details">Telefónne číslo</label>
-                    <input type="tel" id="phone" placeholder="Vložte telefónne číslo">
-                </div>
-                <div class="input-box">
-                    <label for="password" class="details">Heslo</label>
-                    <input type="password" id="password" placeholder="Vložte heslo">
-                </div>
-                <div class="input-box">
-                    <label for="confirm-password" class="details">Potvrdenie hesla</label>
-                    <input type="password" id="confirm-password" placeholder="Potvrďte heslo">
-                </div>
-            </div>
-
-            <div class="gender-details">
-                <span class="gender-title">Pohlavie</span>
-                <div class="category">
-                    <label for="male">
-                        <input type="radio" name="gender" id="male" value="male">
-                        Muž
-                    </label>
-                    <label for="female">
-                        <input type="radio" name="gender" id="female" value="female">
-                        Žena
-                    </label>
-                    <label for="other">
-                        <input type="radio" name="gender" id="other" value="other">
-                        Iné
-                    </label>
-                </div>
-            </div>
-
-            <div class="button">
-                <input type="submit" value="Registrovať">
-            </div>
-        </form>
-    </div>
-</div>
+   </div>
+   
 
     
 </body>

@@ -3,10 +3,11 @@ body {
     font-family: Arial, sans-serif;
     padding-top: 80px;
     height: 3000px;
+    
   }
 .headbar {
     background-color: rgb(111, 109, 106);
-    color: rgb(17, 17, 17);
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,7 +30,7 @@ body {
     margin: center;
 }
 .nav a {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 .nav a:hover {
@@ -100,6 +101,10 @@ body {
     flex-direction: row; 
     justify-content: space-between;
     padding-bottom: 250px;
+    padding: 100px;
+    padding-left: 25px;
+    color: rgb(3, 3, 3); 
+    
 }
 .button button  {
 position:relative;
@@ -231,6 +236,7 @@ position:relative;
     flex-direction: column;
 }
 /* Koniec Amerika */
+
 
 
 
