@@ -1,0 +1,48 @@
+.container {
+    border: 2px solid black; /* Orámovanie kontajnera */
+    padding: 20px;          /* Vnútorné odsadenie kontajnera */
+    border-radius: 10px;    /* Zaoblené rohy */
+    max-width: 600px;       /* Maximálna šírka kontajnera */
+    margin: 20px auto;      /* Centrovanie na stránke */
+    background-color: #f9f9f9; /* Jemné pozadie */
+    height: 400px;
+}
+
+.title h2 {
+    text-align: center;      /* Centrovanie nadpisu */
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-box {
+    width: calc(33.33% - 10px); /* Každý box zaberie tretinu šírky rodiča mínus medzera */
+    margin-bottom: 15px;        /* Odsadenie medzi riadkami */
+    display: inline-block;      /* Zabezpečí radenie vedľa seba */
+    vertical-align: top;
+}
+
+.input-box label {
+    display: block;          /* Zobrazenie labelu na samostatnom riadku */
+    font-weight: bold;       /* Tučný text pre label */
+    margin-bottom: 5px;      /* Odsadenie medzi labelom a inputom */
+}
+
+.input-box input {
+    width: 50%;             /* Input roztiahnuť na celú šírku kontajnera */
+    padding: 10px;           /* Vnútorné odsadenie pre pohodlie */
+    border: 1px solid #ccc;  /* Jemné orámovanie inputu */
+    border-radius: 5px;      /* Zaoblené rohy inputu */
+    box-sizing: border-box;  /* Zohľadnenie paddingu pri šírke */
+}
+
+.input-box input:focus {
+    border-color: #007BFF;   /* Zmena farby orámovania pri zaostrení */
+    outline: none;           /* Odstránenie modrého okraja */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Jemný tieň pri zaostrení */
+}
+
+form {
+    font-family: Arial, sans-serif; /* Štandardné písmo formulára */
+    color: #555;                    /* Neutrálna farba textu */
+}

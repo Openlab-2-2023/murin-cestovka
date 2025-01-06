@@ -1,0 +1,200 @@
+body {
+    margin: 0;
+    padding-top: 80px;
+    height: 3000px;
+}
+
+.headbar {
+    background-color: rgb(111, 109, 106);
+    color: rgb(17, 17, 17);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.nav {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav li {
+    display: inline;
+    margin: center;
+}
+
+.nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.Letenky01 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    margin-top: -20px;
+
+
+}
+
+.dovolenky {
+    background: rgb(125, 119, 119);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+}
+
+.dovolenky img {
+    width: 100%;
+    height: 50%;
+    border-radius: 5px;
+}
+
+.bb button {
+    width: 500px;
+    background-color: #1abc9c;
+}
+
+iframe {
+    width: 87%;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10%;
+}
+
+
+
+
+.strednybar {
+    margin: 70px;
+    position: absolute;
+    z-index: 3;
+    margin-left: 250px;
+    margin-top: 270px;
+    border-radius: 10%;
+
+}
+
+.strednybar input {
+    background-color: rgb(255, 255, 255);
+    size: 20px;
+}
+
+.strednybar button {
+    background-color: #04AA6D;
+    /* Green */
+    color: white;
+
+}
+
+
+
+.Amerika {
+    position: absolute;
+    right: 10;
+    z-index: 2;
+    margin-top: -200px;
+    width: 200px;
+    height: 100px;
+    padding-bottom: 5%;
+    border-radius: 50%;
+
+}
+
+.Amerika img {
+    position: sticky;
+    width: 715%;
+    margin-top: 250px;
+    height: 350px;
+    margin-right: 50px;
+    margin-left: 50px;
+
+}
+
+.HlavnyNadpis {
+    z-index: 4;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    margin-left: 500px;
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+.cele {
+    margin-top: 420px;
+}
+
+.footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footer-container div {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.footer h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ecf0f1;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.footer p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.footer a {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    border-top: 1px solid #7f8c8d;
+    padding-top: 10px;
+}
