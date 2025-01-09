@@ -52,8 +52,8 @@ body {
 }
 
 .strednybar input {
-    background-color: rgb(255, 255, 255);
-    size: 20px;
+    background-color: rgb(54, 45, 45);
+    size: 200px;
 }
 
 .strednybar button {
@@ -90,7 +90,7 @@ body {
 .HlavnyNadpis {
     z-index: 4;
     position: absolute;
-    color: rgb(255, 255, 255);
+    color:  rgb(125, 119, 119);
     margin-left: 500px;
     margin-top: 30px;
     font-size: 50px;
@@ -102,6 +102,9 @@ body {
     flex-direction: column;
     justify-content: space-between;
     margin-top: 450px;
+}
+.button button{
+    width: 1500px;
 }
 
 iframe {
