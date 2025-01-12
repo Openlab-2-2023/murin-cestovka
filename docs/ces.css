@@ -6,8 +6,9 @@ body {
 
 }
 
+
 .headbar {
-    background-color: rgb(111, 109, 106);
+    background-color:rgb(111, 109, 106);
     color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
@@ -15,16 +16,37 @@ body {
     padding: 10px 20px;
     position: fixed;
     z-index: 9999;
-    top: 0;
-    left: 0;
-    right: 0;
+    top:0;
+    left:0;
+    right:0;
+    
+}
+.headbar h1 {
+    
+    font-size: 36px;
+    color: #ffffff; /* Zelená farba */
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    animation: fadeInZoom 2s ease-in-out; /* Priradenie animácie */
+    margin-right: auto;
+}
 
+.headbar h1 b {
+    font-weight: bold;
+}
+.headbar img{
+    border-radius: 50%;
+    height: 50px; 
+   
+   
 }
 
 .nav {
     list-style-type: none;
-    display: flex;
+    
     gap: 20px;
+    margin-right: 25px;
 }
 
 .nav li {
@@ -35,6 +57,8 @@ body {
 .nav a {
     color: rgb(255, 255, 255);
     text-decoration: none;
+    margin-right: 25px;
+    
 }
 
 .nav a:hover {
@@ -52,15 +76,19 @@ body {
 }
 
 .strednybar input {
-    background-color: rgb(54, 45, 45);
+    background-color: rgb(255, 255, 255);
     size: 200px;
+    height: 30px;
+    border-radius: 5px;
 }
 
 .strednybar button {
     background-color: #04AA6D;
     /* Green */
     color: white;
-
+    size: 200px;
+    height: 37px;
+    border-radius: 5px;
 }
 
 
@@ -90,7 +118,7 @@ body {
 .HlavnyNadpis {
     z-index: 4;
     position: absolute;
-    color:  rgb(125, 119, 119);
+    color:  rgb(255, 255, 255);
     margin-left: 500px;
     margin-top: 30px;
     font-size: 50px;
@@ -369,16 +397,3 @@ iframe {
     }
 }
 
-.headbar h1 {
-    
-    font-size: 36px;
-    color: #ffffff; /* Zelená farba */
-    text-align: center;
-    margin-bottom: 20px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-    animation: fadeInZoom 2s ease-in-out; /* Priradenie animácie */
-}
-
-.headbar h1 b {
-    font-weight: bold;
-}

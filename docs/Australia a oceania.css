@@ -6,18 +6,38 @@ body {
 }
 
 .headbar {
-    background-color: rgb(111, 109, 106);
-    color: rgb(17, 17, 17);
+    background-color:rgb(111, 109, 106);
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
     position: fixed;
     z-index: 9999;
-    top: 0;
-    left: 0;
-    right: 0;
+    top:0;
+    left:0;
+    right:0;
+    
+}
+.headbar h1 {
+    
+    font-size: 36px;
+    color: #ffffff; /* Zelená farba */
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    animation: fadeInZoom 2s ease-in-out; /* Priradenie animácie */
+    margin-right: auto;
+}
 
+.headbar h1 b {
+    font-weight: bold;
+}
+.headbar img{
+    border-radius: 50%;
+    height: 50px; 
+   
+   
 }
 
 .nav {
@@ -32,7 +52,7 @@ body {
 }
 
 .nav a {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
