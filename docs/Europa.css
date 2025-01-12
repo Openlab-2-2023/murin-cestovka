@@ -147,17 +147,22 @@ iframe {
 .dovolenky {
     background: rgb(125, 119, 119);
     border: 1px solid #ddd;
+    color: white;
     border-radius: 5px;
     margin: 10px;
     padding: 15px;
     width: 200px;
     text-align: center;
+
 }
 
 .dovolenky img {
     width: 100%;
     height: 50%;
     border-radius: 5px;
+}
+.dovolenky h3{
+    text-decoration:underline;
 }
 
 .footer {

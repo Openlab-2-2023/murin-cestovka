@@ -72,12 +72,16 @@ body {
     padding: 15px;
     width: 200px;
     text-align: center;
+    color: white;
 }
 
 .dovolenky img {
     width:100%;
     height: 50%;
     border-radius: 5px;
+}
+.dovolenky h3{
+    text-decoration:underline;
 }
 iframe{
 width: 87%;

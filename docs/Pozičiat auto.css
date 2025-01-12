@@ -72,12 +72,16 @@ body {
     padding: 15px;
     width: 200px;
     text-align: center;
+    color: white;
 }
 
 
 .auta{
     margin-top: 20px;
     text-align: center;
+}
+.auta h3{
+    text-decoration:underline;
 }
 .auto img{
     width: 100%;
@@ -109,7 +113,7 @@ body {
     margin-right: 50px;
     margin-left: 50px;
     background-color: #7f8c8d;
-    
+   
 }
 
 .HlavnyNadpis {
