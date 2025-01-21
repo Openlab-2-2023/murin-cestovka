@@ -3,18 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKdQSxfS8JML0zK_gVnKVocPZoM7BspdaFsg&s);
+
+body {
+    background-image: url("https://file.mahalo.cz/2016/12/detailni-vlajka-portugalska.jpg" ); 
+    font-family: 'Arial', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
+
 .profile-card {
-    width: 300px;
-    background-color: #f4f4f4;
-    border-radius: 10px;
+    width: 320px;
+    background: linear-gradient(100deg, rgba(255, 0, 0, 0.8), rgba(23, 78, 28, 0.8)); 
+    border-radius: 15px;
     overflow: hidden;
     margin: 50px auto;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+    position: relative;
+    transition: all 0.3s ease; 
+}
+
+.profile-card:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); 
 }
 
 .profile-image {
@@ -22,25 +35,42 @@ body{
     height: auto;
     border-radius: 50%;
     margin-bottom: 20px;
-    z-index: 1;
+    z-index: 2;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.profile-image:hover {
+    transform: scale(1.1); /* Zväčšenie obrázka pri hover */
 }
 
 .info h6 {
-    font-size: 24px;
-    color: #333;
-    margin-bottom: 10px;
-text-align: center;
-background-color: red;
-margin-top: -50px;
-z-index: 2;
-border-radius: 10px;
-color: white;
+    font-size: 26px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: #e74c3c; /* Červený pozadie pre text */
+    margin: -30px 0 10px;
+    padding: 10px 0;
+    border-radius: 10px;
+    position: relative;
+    z-index: 3;
+    font-weight: bold;
 }
-
+ .infor{
+   background-color: #fff;
+   border-radius: 30px;
+   border: 5px solid black;
+ }
 .info p {
-    color: #666;
+    color: #000000;
     font-size: 16px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-family:initial ;
+    font-weight: 500;
+    line-height: 1.6;
+    margin-left: 30px;
+    
 }
 
 .social-links {
@@ -54,9 +84,14 @@ color: white;
 }
 
 .social-links a {
-    color: #333;
+    color: #fff;
     text-decoration: none;
     font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #3498db; /* Zmena farby pri hover */
 }
 
 .fab {
@@ -70,7 +105,14 @@ color: white;
 @media (max-width: 480px) {
     .profile-card {
         width: 90%;
+        padding: 15px;
+    }
+
+    .info h6 {
+        font-size: 22px;
+    }
+
+    .info p {
+        font-size: 14px;
     }
 }
-
-
